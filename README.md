@@ -86,4 +86,4 @@ arch_sprite.SetY(Window.GetHeight() - arch_image.GetHeight() - 50); # display ju
 
 
 ### Other general information
-+ Created and tested on machine with 3840 x 2560 resolution. Plymouth does ***not*** support .svg files. 
++ Created and tested on a machine with 3840 x 2560 resolution. Plymouth does ***not*** support .svg files. 
