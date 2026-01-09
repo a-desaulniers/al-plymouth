@@ -23,7 +23,7 @@ follow [this](https://wiki.archlinux.org/index.php/plymouth) *archwiki* article 
 
 **Download :** you can download from [releases](https://github.com/a-desaulniers/al-plymouth/releases/download/Final/al-plymouth.zip).
 
-**Clone :** or you can clone this repository if you want - 
+**Clone :** or you can clone the repo if you'd prefer - 
 ```bash
 git clone https://github.com/adi1090x/plymouth-themes.git
 ```
@@ -85,7 +85,5 @@ arch_sprite.SetY(Window.GetHeight() - arch_image.GetHeight() - 50); # display ju
 ```
 
 
-### FYI
-+ Created and tested on machine with 1366x768 resolution.
-+ Yeah, that's how *quarantine* going on :grin:.
-+ Stay Home - Stay Safe, Help Fighting CORONA.
+### Other general information
++ Created and tested on machine with 3840 x 2560 resolution. Plymouth does ***not*** support .svg files. 
