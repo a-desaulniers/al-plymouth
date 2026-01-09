@@ -1,10 +1,7 @@
 #!/bin/bash
 
 ## Preview default plymouth splash
-## Author : Aditya Shakya (adi1090x)
-## Mail : adi1090x@gmail.com
-## Github : @adi1090x
-## Reddit : @adi1090x
+## Author : Alexandre DesAulniers (forked from adi1090x)
 
 ## Colors
 R='\033[1;31m'
