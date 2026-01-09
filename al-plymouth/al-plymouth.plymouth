@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=al-plymouth
+Description=display orbital rings
+Comment=created By Alexandre DesAulniers (@a_desaulniers)
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/al-plymouth
+ScriptFile=/usr/share/plymouth/themes/al-plymouth/al-plymouth.script

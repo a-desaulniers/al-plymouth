@@ -1,7 +1,4 @@
-## Author : Aditya Shakya (adi1090x)
-## Mail : adi1090x@gmail.com
-## Github : @adi1090x
-## Reddit : @adi1090x
+## Author : Alexandre DesAulniers & adi1090x
 
 // Screen size
 screen.w = Window.GetWidth(0);
@@ -106,10 +103,10 @@ fun MessageCallback(text) {
 }
 Plymouth.SetMessageFunction(MessageCallback);
 
-# display ubuntu logo
-ubuntu_image = Image("ubuntu-logo.png"); # change filename accordingly
-ubuntu_sprite = Sprite();
+# display arch logo
+arch_image = Image("arch-logo.png"); # change filename accordingly
+arch_sprite = Sprite();
 
-ubuntu_sprite.SetImage(ubuntu_image);
-ubuntu_sprite.SetX(Window.GetX() + (Window.GetWidth() / 2 - ubuntu_image.GetWidth() / 2)); # center the image horizontally
-ubuntu_sprite.SetY(Window.GetHeight() - ubuntu_image.GetHeight() - 50); # display just above the bottom of the screen
+arch_sprite.SetImage(arch_image);
+arch_sprite.SetX(Window.GetX() + (Window.GetWidth() / 2 - arch_image.GetWidth() / 2)); # center the image horizontally
+arch_sprite.SetY(Window.GetHeight() - arch_image.GetHeight() - 50); # display just above the bottom of the screen
